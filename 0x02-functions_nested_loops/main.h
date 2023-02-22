@@ -20,4 +20,4 @@ void time_table(void);
 
 int add(int,int);
 
-void print_times_tablet(int n);
+void print_times_table(int n);
