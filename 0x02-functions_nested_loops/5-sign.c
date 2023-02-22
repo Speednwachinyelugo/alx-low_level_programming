@@ -3,7 +3,7 @@
 /**
  * print_sign - Check the code
  * @n: input character
- * Description: The function is for print_sign
+ * Description: The function is for print_sign()
  * Return: Always 0
  */
 
@@ -24,7 +24,7 @@ int print_sign(int n)
 	else
 		(n < 0)
 	{
-		_putchar(-);
+		_putchar('-');
 		num = -1;
 	}
 	return (num);
