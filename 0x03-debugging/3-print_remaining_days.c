@@ -4,8 +4,8 @@
 /**
  * print_remaining_days -takes a date and prints how many days are left
  * in the year, taking leap years into account
- * @day: exact day of the month
  * @month: number format
+ * @day: exact day of the month
  * @year: exact year
  * Return:void
  */
