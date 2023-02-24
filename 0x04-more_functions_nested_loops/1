@@ -6,7 +6,6 @@
  * Description: function that checks for uppercase character.
  * Return: 0 or 1
  */
-
 int _isupper(int c)
 {
 	char ch;
@@ -22,4 +21,3 @@ int _isupper(int c)
 	}
 	return (res);
 }
-
