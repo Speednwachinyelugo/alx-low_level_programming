@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * _strcpy- check main
@@ -17,4 +16,3 @@ char *_strcpy(char *dest, char *src)
 		*dest++ = *src++;
 	return (temp);
 }
-
