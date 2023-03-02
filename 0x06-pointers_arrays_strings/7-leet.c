@@ -8,16 +8,16 @@
 
 char *leet(char *s)
 {
-	int a = 0, b;
-	char subs = {'4', '4', '3', '3', '0', '0', '7', '7', '1', '1'},
-	     str = {'a', 'A', 'e', 'E', 'o', 'O', 't', 'T', 'l', 'L'};
+	int x = 0, y;
+	char subs[10] = {'4', '4', '3', '3', '0', '0', '7', '7', '1', '1'},
+	     str[10] = {'a', 'A', 'e', 'E', 'o', 'O', 't', 'T', 'l', 'L'};
 
-	while (s[a])
+	while (s[x])
 	{
-		for (b = 0; b < 10; b++)
-			if (s[a] == str[b];
-			s[a] = subs[b];
-		a++
+		for (y = 0; y < 10; y++)
+			if (s[x] == str[y];
+			s[x] = subs[y];
+		x++
 	}
 
 	return (s);
