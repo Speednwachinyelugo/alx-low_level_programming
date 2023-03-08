@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * set_sting - entry point
+ * set_string - entry point
  * @s: The pointer.
  * @to: The char.
  * Description: function set_string
