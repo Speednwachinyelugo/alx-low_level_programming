@@ -1,7 +1,6 @@
 #include "main.h"
 
 /**
- *
  * _stpbrk - entry point
  * @s: The string
  * @: The set of bytes
