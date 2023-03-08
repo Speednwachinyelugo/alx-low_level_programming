@@ -10,5 +10,7 @@
 
 void set_string(char **s, char *to)
 {
-	*s = to;
+	char to = 'a';
+	char *s = &to;
+	set_char_s(s, 'b');
 }
