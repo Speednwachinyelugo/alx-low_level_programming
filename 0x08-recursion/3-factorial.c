@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /**
- * factorial: returns factorial of a number
+ * factorial - Returns factorial of a number
  * @n: the number whose factorial is needed
- * Return: -1 if n < 0
+ * Return: 0
  */
 
 int factorial(int n)
@@ -14,6 +14,6 @@ int factorial(int n)
 
 	if (n == 1)
 		return (1);
-	return (n * factorial(n-1));
+	return (n * factorial(n - 1));
 }
 
