@@ -2,16 +2,18 @@
 
 /**
  * main - entry point
- * @argc: Number of arguments in a program
- * @argv: An array of pointers to the arguments
+ * @argc: int input
+ * @argv: char input
  * Description: function
  * Return: 0
  */
+
 int main(int argc, char *argv[])
 {
 	int i;
 
 	for (i = 0; i < argc; i++)
 		printf("%s\n", argv[i]);
+
 	return (0);
 }
