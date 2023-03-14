@@ -6,6 +6,7 @@
  * create_array - entry point
  * @size: unsigned int
  * @c: char
+ * Description: function create_array
  * Return: 0
  */
 
