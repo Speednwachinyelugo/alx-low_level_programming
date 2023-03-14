@@ -2,16 +2,16 @@
 #include <stdlib.h>
 
 /**
- * create_array - entry point
- * @size: given input
- * @c: given input
- * Description: function create_array
- * Return: 0
- */
+* create_array - entry point
+* @size: input
+* @c: input
+* Description: function
+* Return: 0
+*/
 
 char *create_array(unsigned int size, char c)
 {
-	char *p
+	char *p;
 	unsigned int i = 0;
 
 	if (size == 0)
