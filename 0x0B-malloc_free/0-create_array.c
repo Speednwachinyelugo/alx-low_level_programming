@@ -3,8 +3,8 @@
 
 /**
  * create_array - entry point
- * @size: unsigned int
- * @c: char
+ * @size: given input
+ * @c: given input
  * Description: function create_array
  * Return: 0
  */
