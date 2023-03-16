@@ -4,7 +4,7 @@
 /**
  * _strdup - entry point
  * @str: string
- *
+ * Description: function
  * Return: 0
  */
 
